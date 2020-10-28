@@ -1,0 +1,387 @@
+body {
+    margin: 0px auto;
+    width: 100%;
+}
+
+hr {
+    margin: 0px;
+    width: 0%;
+    /* display: none; */
+}
+
+.inner1 li {
+    color: white;
+}
+
+h2 {
+    margin: 100px 0px 50px 40px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+ul {
+    margin-left: 40px;
+    line-height: 22px;
+    list-style-type: square;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+nav {
+    background-color: #0f1f41;
+    height: 80px;
+    border: 3px solid #dae1e7;
+    border-bottom: none;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+nav ul {
+    float: left;
+    margin: 20px;
+}
+
+nav ul li {
+    margin-top: 5px;
+    padding-right: 30px;
+    float: left;
+    list-style-type: none;
+    color: #dadbdb;
+}
+
+nav ul li a {
+    font-family: 'Baloo Bhai 2', cursive;
+    color: #dae1e7;
+    font-size: 18px;
+    text-shadow: 2px 4px 0.8 rgb(7, 7, 7);
+    font-weight: bold;
+    text-decoration: none;
+    /* background-color: #dae1e7; */
+    padding: 3px 22px;
+    border-radius: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav ul li a:hover {
+    color: #0f1f41;
+    font-weight: bold;
+    background-color: #dae1e7;
+}
+
+.home {
+    background-color: #e4e3e3;
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-computer-code-technology-advertising-image_165748.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    opacity: 1;
+    text-align: center;
+    /* font-size: 40px; */
+    display: table;
+    height: 70vh;
+    width: 100%;
+}
+
+.inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.home .inner img {
+    width: 120px;
+    height: auto;
+    margin: 80px 0px -10px 0px;
+}
+
+.home .inner h1 {
+    color: #091124;
+    font-size: 40px;
+}
+
+.home .inner h2 {
+    margin: 0px;
+    color: #091124;
+    opacity: 0.8;
+    font-size: 30px;
+}
+
+.home .inner p {
+    margin: 30px 0px -10px 0px;
+}
+
+.home .inner p a {
+    /* margin-top: 50px; */
+    color: #091124;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 25px;
+    font-family: 'Baloo Bhai 2', cursive;
+    border-radius: 15px;
+}
+
+.home .inner p a:hover {
+    color: #e4e3e3;
+    font-family: 'Baloo Bhai 2', cursive;
+    /* font-weight: bold; */
+    background-color: #0f1f41;
+}
+
+.inner-list li {
+    list-style-type: none;
+    float: left;
+    padding-right: 10px;
+    /* padding-left: 10px; */
+}
+
+.inner-list li:last-child {
+    list-style-type: none;
+    float: none;
+}
+
+.inner-list li:not(:first-child)::before {
+    content: '| ';
+    font-weight: bolder;
+}
+
+.iframes {
+    margin-top: 100px;
+}
+
+#section1 {
+    background-color: #cea754;
+}
+
+#section1 h2 {
+    margin: 100px 0px 40px 40px;
+}
+
+#section2 {
+    background-color: #b35340;
+}
+
+#section3 {
+    background-color: #6f3637;
+}
+
+#section4 {
+    background-color: #233342;
+}
+
+#section5 {
+    background-color: #4b2b31;
+}
+
+#section6 {
+    background-color: #162029;
+}
+
+#section7 {
+    background-color: #361f24;
+}
+
+.end {
+    height: 70px;
+    background-color: #0f1f41;
+    width: 100%;
+}
+
+.end p {
+    font-family: 'Baloo Bhai 2', cursive;
+    color: #dae1e7;
+    margin: 0px;
+    margin-top: 23px;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.end p a {
+    float: center;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    color: #dae1e7;
+}
+
+.end p a:hover {
+    cursor: pointer;
+    color: #0f1f41;
+    font-weight: bold;
+    background-color: #dae1e7;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 20px;
+    font-family: 'Baloo Bhai 2', cursive;
+    border-radius: 15px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    section .content {
+        width: 100%;
+        float: left;
+        height: 70vh;
+    }
+    section .iframes {
+        /* margin-left: 10px; */
+        width: 100%;
+        float: left;
+        height: 70vh;
+    }
+    nav {
+        border: none;
+    }
+    ul {
+        margin-left: 15px;
+        line-height: 22px;
+        list-style-type: square;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 13px;
+    }
+    nav ul {
+        margin: 0px;
+    }
+    nav ul li {
+        margin-top: 20px;
+        padding-right: 5px;
+        line-height: 2px;
+    }
+    nav ul li a {
+        font-size: 13px;
+    }
+    .home .inner h1 {
+        font-size: 30px;
+    }
+    .home .inner h2 {
+        font-size: 22px;
+    }
+    ul li {
+        font-size: 12px;
+        margin-right: 4px;
+    }
+    .end p {
+        font-size: 13px;
+    }
+    #section1 .content {
+        height: 100vh;
+    }
+    #section1 #iframe1 {
+        height: 60vh;
+    }
+    #section2 .content {
+        height: 53vh;
+    }
+    #section2 #iframe2 {
+        height: 60vh;
+    }
+    #section3 .content {
+        height: 88vh;
+    }
+    #section3 #iframe3 {
+        height: 60vh;
+    }
+    #section4 .content {
+        height: 60vh;
+    }
+    #section4 #iframe4 {
+        height: 60vh;
+    }
+    #section5 .content {
+        height: 45vh;
+    }
+    #section5 #iframe5 {
+        height: 60vh;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    nav {
+        border: none;
+    }
+    section .content {
+        width: 100%;
+        float: left;
+        height: 70vh;
+    }
+    section .iframes {
+        /* margin-left: 30px; */
+        width: 100%;
+        float: left;
+        height: 70vh;
+    }
+    nav ul li a {
+        font-size: 15px;
+        padding: 3px 13px;
+    }
+    ul {
+        margin-left: 40px;
+        line-height: 22px;
+        list-style-type: square;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    nav {
+        border: none;
+    }
+    section .content {
+        width: 50%;
+        float: left;
+        height: 70vh;
+    }
+    section .iframes {
+        width: 50%;
+        float: left;
+        height: 70vh;
+    }
+    #section1 {
+        height: 90vh;
+    }
+    #section3 {
+        height: 90vh;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 2559px) {
+    section .content {
+        width: 50%;
+        float: left;
+        height: 70vh;
+    }
+    section .iframes {
+        width: 50%;
+        float: left;
+        height: 70vh;
+    }
+}
+
+@media (min-width:2560px) {
+    section .content {
+        width: 40%;
+        float: left;
+        height: 40vh;
+    }
+    section .iframes {
+        width: 60%;
+        float: left;
+        height: 40vh;
+    }
+    .home {
+        height: 50vh;
+    }
+    ul li,
+    p {
+        font-size: 21px;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 21px;
+    }
+    #section1 {
+        height: 60vh;
+    }
+    #section3 {
+        height: 60vh;
+    }
+}

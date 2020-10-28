@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Bree+Serif&display=swap" rel="stylesheet">
+    <title>CSS Cheat Sheet</title>
+</head>
+
+<body>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#text">Text</a></li>
+                <li><a href="#font">Fonts</a></li>
+                <li><a href="#background">Background</a></li>
+                <li><a href="#border">Border</a></li>
+                <li><a href="#box-model">Box-Model</a></li>
+                <li><a href="#table">Table</a></li>
+                <li><a href="#animation">Animation</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <section class="home" id="home">
+        <div class="inner">
+            <img src="images/logo1.png" alt="profile image">
+            <h1>Aviral Goel</h1>
+            <h2>Welcome to my CSS Cheat Sheet</h2>
+            <p><a href="#text">Let's Start</a></p>
+        </div>
+    </section>
+
+    <section id="text">
+        <div id="section1" class="inner1">
+            <div class="content">
+                <h2>
+                    Text
+                </h2>
+                <ul>
+                    <li>text-align :
+                        <ul class="inner-list">
+                            <li>center</li>
+                            <li>end</li>
+                            <li>justify</li>
+                            <li>left</li>
+                            <li>start</li>
+                            <li>initial</li>
+                        </ul>
+                    </li>
+                    <li>color :
+                        <ul class="inner-list">
+                            <li>color</li>
+                            <li>transparent</li>
+                            <li>none</li>
+                        </ul>
+                    </li>
+                    <li>text-decoration :
+                        <ul class="inner-list">
+                            <li>dashed</li>
+                            <li>dotted</li>
+                            <li>line-through</li>
+                            <li>overline</li>
+                            <li>underline</li>
+                            <li>solid</li>
+                            <li>none</li>
+                        </ul>
+                    </li>
+                    <li>text-transform :
+                        <ul class="inner-list">
+                            <li>capitalize</li>
+                            <li>lowercase</li>
+                            <li>uppercase</li>
+                            <li>initial</li>
+                            <li>none</li>
+                        </ul>
+                    </li>
+                    <li>text-indent :
+                        <ul class="inner-list">
+                            <li>length (px, em, cm)</li>
+                            <li>inherit</li>
+                            <li>unset</li>
+                            <li>initial</li>
+                        </ul>
+                    </li>
+                    <li>text-shadow :
+                        <ul class="inner-list">
+                            <li>length (px, em, cm)</li>
+                            <li>current-color</li>
+                            <li>transparent</li>
+                        </ul>
+                    </li>
+                    <li>text-overflow :
+                        <ul class="inner-list">
+                            <li>clip</li>
+                            <li>ellipses</li>
+                            <li>inherit</li>
+                            <li>initial</li>
+                            <li>unset</li>
+                        </ul>
+                    </li>
+                    <li>vertical-align :
+                        <ul class="inner-list">
+                            <li>length</li>
+                            <li>sub</li>
+                            <li>super</li>
+                            <li>top</li>
+                            <li>text-top</li>
+                            <li>middle</li>
+                            <li>bottom</li>
+                            <li>text-bottom</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div id="iframe1" class="iframes">
+                <iframe height="351" style="width: 90%;" scrolling="no" title="oNxxoZp" src="https://codepen.io/Aviral88/embed/oNxxoZp?height=265&theme-id=light&default-tab=css,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+                    See the Pen <a href='https://codepen.io/Aviral88/pen/oNxxoZp'>oNxxoZp</a> by Aviral Goel
+                    (<a href='https://codepen.io/Aviral88'>@Aviral88</a>) on <a href='https://codepen.io'>CodePen</a>.
+                  </iframe>
+            </div>
+            <hr>
+        </div>
+    </section>
+
+    <section id="font">
+        <div id="section2" class="inner1">
+            <div class="content">
+                <h2>
+                    Fonts
+                </h2>
+                <ul>
+                    <li>font-style :
+                        <ul class="inner-list">
+                            <li>normal</li>
+                            <li>italics</li>
+                            <li>oblique</li>
+                        </ul>
+                    </li>
+                    <li>font-weight :
+                        <ul class="inner-list">
+                            <li>normal</li>
+                            <li>bold</li>
+                            <li>light</li>
+                            <li>number (100, 400)</li>
+                        </ul>
+                    </li>
+                    <li>font-variant :
+                        <ul class="inner-list">
+                            <li>normal</li>
+                            <li>small-caps</li>
+                        </ul>
+                    </li>
+                    <li>font-size :
+                        <ul class="inner-list">
+                            <li>length (px, em, cm, in, %)</li>
+                            <li>small</li>
+                            <li>medium</li>
+                            <li>large</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div id="iframe2" class="iframes">
+                <iframe height="351" style="width: 90%;" scrolling="no" title="Fonts Practise" src="https://codepen.io/Aviral88/embed/RwaaLQg?height=265&theme-id=light&default-tab=css,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+                    See the Pen <a href='https://codepen.io/Aviral88/pen/RwaaLQg'>Fonts Practise</a> by Aviral Goel
+                    (<a href='https://codepen.io/Aviral88'>@Aviral88</a>) on <a href='https://codepen.io'>CodePen</a>.
+                  </iframe>
+            </div>
+            <hr>
+        </div>
+    </section>
+
+    <section id="background">
+        <div id="section3" class="inner1">
+            <div class="content">
+                <h2>
+                    Background
+                </h2>
+                <ul>
+                    <li>background-image :
+                        <ul class="inner-list">
+                            <li>gradient</li>
+                            <li>url</li>
+                            <li>none</li>
+                        </ul>
+                    </li>
+
+                    <li>background-size :
+                        <ul class="inner-list">
+                            <li>length</li>
+                            <li>percentage</li>
+                            <li>auto</li>
+                            <li>contain</li>
+                            <li>cover</li>
+                        </ul>
+                    </li>
+                    <li>background-repeat :
+                        <ul class="inner-list">
+                            <li>repeat</li>
+                            <li>repeat-x</li>
+                            <li>repeat-y</li>
+                            <li>no-repeat</li>
+                        </ul>
+                    </li>
+                    <li>background-attachment :
+                        <ul class="inner-list">
+                            <li>scroll</li>
+                            <li>fixed</li>
+                            <li>local</li>
+                        </ul>
+                    </li>
+                    <li>background-origin :
+                        <ul class="inner-list">
+                            <li>border-box</li>
+                            <li>padding-box</li>
+                            <li>content-box</li>
+                        </ul>
+                    </li>
+                    <li>background-color :
+                        <ul class="inner-list">
+                            <li>color</li>
+                            <li>transparent</li>
+                        </ul>
+                    </li>
+                    <li>background-position :
+                        <ul class="inner-list">
+                            <li>top left</li>
+                            <li>top center</li>
+                            <li>top right</li>
+                            <li>center left</li>
+                            <li>center center</li>
+                            <li>center right</li>
+                            <li>bottom left</li>
+                            <li>bottom center</li>
+                            <li>bottom right</li>
+                            <li>x-pos, y-pos</li>
+                            <li>x%, y%</li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+            <div id="iframe3" class="iframes">
+                <iframe height="351" style="width: 90%;" scrolling="no" title="Background Practise" src="https://codepen.io/Aviral88/embed/jOqbymV?height=265&theme-id=light&default-tab=css,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+                    See the Pen <a href='https://codepen.io/Aviral88/pen/jOqbymV'>Background Practise</a> by Aviral Goel
+                    (<a href='https://codepen.io/Aviral88'>@Aviral88</a>) on <a href='https://codepen.io'>CodePen</a>.
+                  </iframe>
+                </iframe>
+            </div>
+            <hr>
+        </div>
+    </section>
+
+    <section id="border">
+        <div id="section4" class="inner1">
+            <div class="content">
+                <h2>
+                    Border
+                </h2>
+                <ul>
+                    <li>border-width
+                        <ul class="inner-list">
+                            <li>thin</li>
+                            <li>medium</li>
+                            <li>thick</li>
+                            <li>inherit</li>
+                        </ul>
+                    </li>
+                    <li>border-style
+                        <ul class="inner-list">
+                            <li>dashed</li>
+                            <li>dotted</li>
+                            <li>double</li>
+                            <li>groove</li>
+                            <li>hidden</li>
+                            <li>ridge</li>
+                            <li>solid</li>
+                            <li>none</li>
+                        </ul>
+                    </li>
+                    <li>border-position
+                        <ul class="inner-list">
+                            <li>border-right</li>
+                            <li>border-left</li>
+                            <li>border-right-width</li>
+                            <li>border-left-width</li>
+                            <li>border-left-style</li>
+                            <li>border-right-style</li>
+                        </ul>
+                    </li>
+                    <li>border-spacing
+                        <ul class="inner-list">
+                            <li>length (px, em, in, cm)</li>
+                            <li>inherit</li>
+                            <li>unset</li>
+                            <li>initial</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div id="iframe4" class="iframes">
+                <iframe height="351" style="width: 90%;" scrolling="no" title="vYGGBLg" src="https://codepen.io/Aviral88/embed/vYGGBLg?height=265&theme-id=light&default-tab=css,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+                    See the Pen <a href='https://codepen.io/Aviral88/pen/vYGGBLg'>vYGGBLg</a> by Aviral Goel
+                    (<a href='https://codepen.io/Aviral88'>@Aviral88</a>) on <a href='https://codepen.io'>CodePen</a>.
+                  </iframe>
+            </div>
+            <hr>
+        </div>
+    </section>
+
+    <section id="box-model">
+        <div id="section5" class="inner1">
+            <div class="content">
+                <h2>
+                    Box Model
+                </h2>
+                <ul>
+                    <li>float
+                        <ul class="inner-list">
+                            <li>none</li>
+                            <li>right</li>
+                            <li>left</li>
+                            <li>inherit</li>
+                        </ul>
+                    </li>
+                    <li>height
+                        <ul class="inner-list">
+                            <li>line-height</li>
+                            <li>max-height</li>
+                            <li>min-height</li>
+                        </ul>
+                    </li>
+                    <li>overflow
+                        <ul class="inner-list">
+                            <li>hidden</li>
+                            <li>scroll</li>
+                            <li>visible</li>
+                            <li>auto</li>
+                            <li>inherit</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div id="iframe5" class="iframes">
+                <iframe height="351" style="width: 90%;" scrolling="no" title="MWyKMMv" src="https://codepen.io/Aviral88/embed/MWyKMMv?height=351&theme-id=light&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+                    See the Pen <a href='https://codepen.io/Aviral88/pen/MWyKMMv'>MWyKMMv</a> by Aviral Goel
+                    (<a href='https://codepen.io/Aviral88'>@Aviral88</a>) on <a href='https://codepen.io'>CodePen</a>.
+                  </iframe>
+            </div>
+            <hr>
+        </div>
+    </section>
+
+    <section id="table">
+        <div id="section6" class="inner1">
+            <div class="content">
+                <h2>
+                    Table
+                </h2>
+                <ul>
+                    <li> table heading
+                        <ul class="inner-list">
+                            <li>th</li>
+                        </ul>
+                    </li>
+                    <li>table cells
+                        <ul class="inner-list">
+                            <li>tr</li>
+                            <li>td</li>
+                        </ul>
+                    </li>
+                    <li>overflow
+                        <ul class="inner-list">
+                            <li>auto</li>
+                            <li>hidden</li>
+                            <li>scroll</li>
+                            <li>visible</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div id="iframe6" class="iframes">
+                <iframe height="351" style="width: 90%;" scrolling="no" title="Table Properties" src="https://codepen.io/Aviral88/embed/rNeMzqY?height=265&theme-id=light&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+                    See the Pen <a href='https://codepen.io/Aviral88/pen/rNeMzqY'>Table Properties</a> by Aviral Goel
+                    (<a href='https://codepen.io/Aviral88'>@Aviral88</a>) on <a href='https://codepen.io'>CodePen</a>.
+                  </iframe>
+            </div>
+            <hr>
+        </div>
+    </section>
+
+    <section id="animation">
+        <div id="section7" class="inner1">
+            <div class="content">
+                <h2>
+                    Animation
+                </h2>
+                <ul>
+                    <li>@keyframes
+                        <ul class="inner-list">
+                            <li>animation name</li>
+                            <li>animation duration</li>
+                            <li>animation iteration count</li>
+                            <li>animation delay</li>
+                            <li>animation-fill-mode</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div id="iframe7" class="iframes">
+                <iframe height="351" style="width: 90%;" scrolling="no" title="Animation Properties" src="https://codepen.io/Aviral88/embed/yLOaowX?height=265&theme-id=light&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+                    See the Pen <a href='https://codepen.io/Aviral88/pen/yLOaowX'>Animation Properties</a> by Aviral Goel
+                    (<a href='https://codepen.io/Aviral88'>@Aviral88</a>) on <a href='https://codepen.io'>CodePen</a>.
+                  </iframe>
+            </div>
+            <hr>
+        </div>
+    </section>
+
+    <section class="end">
+        <div class="copy">
+            <p class="center">
+                Copyright &nbsp; &copy; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; All rights reserved!
+            </p>
+            <p><a href="#home">Move to Top</a></p>
+        </div>
+    </section>
+</body>
+
+</html>
